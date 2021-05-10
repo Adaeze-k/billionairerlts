@@ -641,6 +641,14 @@ a:hover {
   }
 }
 
+@media (max-width: 1199px) {
+  .text-brand .color-b1, .color-b {
+    display: none;
+  }
+
+  
+}
+
 .navbar-default.navbar-trans .nav-link, .navbar-default.navbar-reduce .nav-link {
   font-size: 1.1rem;
   color: #380064;
@@ -1357,7 +1365,7 @@ a:hover {
   width: 100%;
   position: absolute;
   z-index: 2;
-  background-color: #ffd700;
+  background-color: #380064;
 }
 
 .card-info {
@@ -1368,7 +1376,7 @@ a:hover {
 
 .card-info .card-info-title {
   font-size: 1rem;
-  color: #313131;
+  color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -1471,6 +1479,7 @@ a:hover {
     margin-top: 2.5rem;
   }
 }
+
 
 /*======================================
 //--//-->   NEWS - CARD-B
@@ -1678,25 +1687,25 @@ a:hover {
 }
 
 .card-box-ico span {
-  font-size: 4rem;
-  color: #000000;
+  font-size: 2rem;
+  color: #380064;
 }
 
 .title-c {
-  font-size: 2.5rem;
-  font-weight: 600;
-  margin-left: -40px;
+  font-size: 1.9rem;
+  font-weight: 300;
+  margin-left: 30px;
 }
 
 @media (min-width: 768px) {
   .title-c {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
 }
 
 @media (min-width: 992px) {
   .title-c {
-    font-size: 2.5rem;
+    font-size: 1.9rem;
   }
 }
 
@@ -1995,8 +2004,8 @@ a:hover {
 # Contact Section
 --------------------------------------------------------------*/
 .form-as #sendmessage {
-  color: #2eca6a;
-  border: 1px solid #26a356;
+  color: #ffd700;
+  border: 1px solid #ffd700;
   display: none;
   text-align: center;
   padding: 15px;
@@ -2047,7 +2056,7 @@ a:hover {
 
 .form-as .form-control:focus {
   box-shadow: none;
-  border-color: #2eca6a;
+  border-color: #ffd700;
 }
 
 .php-email-form .error-message {
@@ -2062,7 +2071,7 @@ a:hover {
 .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #ffd700;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -2082,7 +2091,7 @@ a:hover {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #ffd700;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -2109,7 +2118,7 @@ a:hover {
 
 .php-email-form .form-control:focus {
   box-shadow: none;
-  border-color: #2eca6a;
+  border-color: #ffd700;
 }
 
 @-webkit-keyframes animate-loading {
@@ -2146,7 +2155,7 @@ a:hover {
 .section-footer .item-list-a i {
   font-size: 18px;
   padding-right: 4px;
-  color: #2eca6a;
+  color: #ffd700;
 }
 
 .section-footer .widget-a .w-title-a {
