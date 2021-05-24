@@ -103,7 +103,7 @@ a:hover {
 
 .text-brand {
   color: #000000;
-  font-size: 2rem;
+  font-size: 1.3rem;
   font-weight: 600;
 }
 
@@ -738,7 +738,7 @@ a:hover {
 }
 
 .navbar-brand img{
-  width: 90px;
+  width: 80px;
 }
 
 
@@ -1030,7 +1030,7 @@ a:hover {
   color: #ffffff;
   padding: 1rem 1.5rem;
   border: 2px solid #ffd700;
-  border-radius: 50px;
+  border-radius: 0;
   text-transform: uppercase;
   letter-spacing: 0.030em;
 }
@@ -1356,7 +1356,7 @@ a:hover {
   color: #ffffff;
   padding: .6rem .8rem;
   border: 2px solid #ffd700;
-  border-radius: 50px;
+  border-radius: 0;
   text-transform: uppercase;
   letter-spacing: 0.030em;
 }
@@ -1683,7 +1683,7 @@ a:hover {
 
 .card-box-ico {
   padding: 1rem 3rem 1rem 2.5rem;
-  border: 5px solid #ffd700;
+  border: 2px solid #ffd700;
 }
 
 .card-box-ico span {
